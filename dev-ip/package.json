@@ -1,0 +1,14 @@
+{
+  "name": "dev-ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dev-ip": "^1.0.1"
+  }
+}
