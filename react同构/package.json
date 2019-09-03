@@ -1,0 +1,26 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p dev:**",
+    "dev:start":"nodemon build/bundle.js -w",
+    "dev:build:serve": "webpack --watch",
+    "dev:build:client": "webpack --config webpack.client.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "koa": "^2.8.1",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
